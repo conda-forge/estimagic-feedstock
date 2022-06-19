@@ -1,5 +1,5 @@
 {% set name = "estimagic" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/estimagic-{{ version }}.tar.gz
-  sha256: 53eedbc90c872050d2ff0eec30a731388f87157d0ce0c8f47289b13b15469a9c
+  sha256: 7a441bbc7be6270b74cf21f4d7dfe7a40fb7d96af83552ca2197cf5b24208bac
 
 build:
   number: 0
@@ -25,16 +25,14 @@ requirements:
     - bokeh >=1.3
     - click
     - cloudpickle
-    - dill
     - fuzzywuzzy
     - joblib
     - numpy >=1.16
     - pandas >=1.0
     - python >=3.8
     - scipy
-    - seaborn
     - sqlalchemy >=1.3
-    - pybaum >=0.1.1
+    - pybaum >=0.1.2
     - plotly
 
 test:
