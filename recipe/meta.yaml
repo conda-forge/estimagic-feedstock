@@ -27,7 +27,7 @@ requirements:
     - cloudpickle
     - fuzzywuzzy
     - joblib
-    - numpy >=1.16
+    - numpy >=1.17
     - pandas >=1.0
     - python >=3.8
     - scipy
