@@ -1,5 +1,5 @@
 {% set name = "estimagic" %}
-{% set version = "0.4.2" %}
+{% set version = "0.4.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/estimagic-{{ version }}.tar.gz
-  sha256: 824d8851a4bea3d44739e8a8f8600051f1e3059da6b7c5ce3d9e80d52a7ef3b4
+  sha256: c11c9488d0b4b9ed6237496837f4254c474efe4435cafbe1b066d94bbc3df2be
 
 build:
   number: 0
