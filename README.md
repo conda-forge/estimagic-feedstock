@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/estimagic-feedstock/blob/main/LICENSE.txt)
 
-Summary: Tools for the estimation of (structural) econometric models.
+Summary: Tools for difficult nonlinear optimization problems.
 
 Current build status
 ====================
