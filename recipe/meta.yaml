@@ -42,6 +42,7 @@ test:
     - estimagic
   commands:
     - estimagic --help
+    - pip check
   requires:
     - pip
 
