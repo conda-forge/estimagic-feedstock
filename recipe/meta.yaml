@@ -35,7 +35,6 @@ requirements:
     - sqlalchemy >=1.3
     - pybaum >=0.1.2
     - plotly
-    - numba
 
 test:
   imports:
