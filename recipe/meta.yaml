@@ -19,35 +19,35 @@ build:
 
 requirements:
   host:
+    - python >=3.10
+    - hatchling
+    - hatch-vcs
     - pip
-    - python >=3.8
-    - setuptools-scm
     - toml
   run:
-    - bokeh <=2.4.3
-    - click
+    - python >=3.10
     - cloudpickle
     - joblib
     - numpy <2.0
-    - pandas >=1.0
-    - python >=3.8
-    - scipy >=1.7
-    - sqlalchemy >=1.3
-    - pybaum >=0.1.2
+    - pandas
     - plotly
+    - pybaum >=0.1.2
+    - scipy >=1.2.1
+    - sqlalchemy >=1.3
+    - annotated-types
+    - typing-extensions
     - jinja2
 
 test:
   imports:
-    - estimagic
+    - optimagic
   commands:
-    - estimagic --help
     - pip check
   requires:
     - pip
-
+    
 about:
-  home: https://github.com/OpenSourceEconomics/estimagic
+  home: https://github.com/optimagic-dev/optimagic
   summary: Tools for difficult nonlinear optimization problems.
   license: MIT
   license_file: LICENSE
