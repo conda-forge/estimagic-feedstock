@@ -3,7 +3,7 @@ About estimagic-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/estimagic-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/OpenSourceEconomics/estimagic
+Home: https://github.com/optimagic-dev/optimagic
 
 Package license: MIT
 
